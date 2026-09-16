@@ -1,0 +1,357 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>AQA regression #131</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    :root { color-scheme: light dark; }
+    body { font: 14px/1.5 -apple-system, "Segoe UI", system-ui, sans-serif; margin: 0; padding: 24px;
+           max-width: 1200px; margin-inline: auto; }
+    h1 { font-size: 20px; margin: 0 0 4px; }
+    .meta { color: #656d76; margin-bottom: 20px; }
+    .totals { display: flex; gap: 24px; flex-wrap: wrap; margin-bottom: 24px; }
+    .totals div { padding: 10px 16px; border: 1px solid #d0d7de; border-radius: 8px; }
+    .totals b { font-size: 20px; display: block; }
+    table { border-collapse: collapse; width: 100%; margin-bottom: 32px; }
+    th, td { border: 1px solid #d0d7de; padding: 7px 10px; text-align: left; }
+    th { background: #f6f8fa; font-weight: 600; }
+    /* The grid is the point of this page: twelve blocks by three versions, and you should be able
+       to see which cell is red without reading anything. */
+    td.r { background: #ffebe9; }
+    td.g { background: #e6ffec; }
+    td.w { background: #fff8c5; }
+    td a { text-decoration: none; color: inherit; display: block; }
+    details { border: 1px solid #d0d7de; border-radius: 8px; margin-bottom: 10px; }
+    details[open] { border-color: #8c959f; }
+    summary { cursor: pointer; padding: 10px 14px; font-weight: 600; }
+    .body { padding: 0 14px 14px; }
+    pre { background: #f6f8fa; padding: 12px; border-radius: 6px; overflow-x: auto;
+          white-space: pre-wrap; word-break: break-word; font-size: 12.5px; margin: 8px 0 0; }
+    .pill { font-weight: 400; font-size: 12px; color: #656d76; }
+    @media (prefers-color-scheme: dark) {
+      th { background: #161b22; } th, td, details { border-color: #30363d; }
+      td.r { background: #3d1519; } td.g { background: #112b17; } td.w { background: #2d2410; }
+      pre { background: #161b22; } .meta, .pill { color: #8b949e; }
+    }
+  </style></head><body>
+<h1>AQA regression &middot; run #131</h1>
+<div class="meta">branch <code>GA-1715</code> &middot; commit <code>5e34491</code> &middot; generated 2026-09-16 14:29:13 UTC</div>
+<div class="totals">
+<div><b>3</b>version(s): 2047c, 2050c, 2050d</div>
+<div><b>36</b>runs, 2h 5m</div>
+<div><b style="color:#1a7f37">459</b>checks passed</div>
+<div><b style="color:#cf222e">24</b>checks failed</div>
+</div>
+<p>Full logs, videos and failure screenshots: <a href="https://bitbucket.org/veryfastio/aqa/pipelines/results/131">run artifacts in Bitbucket</a></p>
+<table><thead><tr><th>block</th>
+<th>2047c</th>
+<th>2050c</th>
+<th>2050d</th>
+</tr></thead><tbody>
+<tr><th>after-install</th>
+<td class="g"><a href="#d-after_install-2047c">37 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-after_install-2050c">37 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-after_install-2050d">37 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>cpg</th>
+<td class="g"><a href="#d-cpg-2047c">12 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-cpg-2050c">12 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-cpg-2050d">12 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>crash-dump</th>
+<td class="g"><a href="#d-crash_dump-2047c">10 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-crash_dump-2050c">11 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-crash_dump-2050d">11 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>install-1</th>
+<td class="g"><a href="#d-install_1-2047c">20 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-install_1-2050c">20 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-install_1-2050d">20 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>install-2</th>
+<td class="g"><a href="#d-install_2-2047c">1 pass &middot; 0 fail</a></td>
+<td class="r"><a href="#d-install_2-2050c">0 pass &middot; 1 fail</a></td>
+<td class="g"><a href="#d-install_2-2050d">1 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>install-3</th>
+<td class="g"><a href="#d-install_3-2047c">1 pass &middot; 0 fail</a></td>
+<td class="r"><a href="#d-install_3-2050c">0 pass &middot; 1 fail</a></td>
+<td class="r"><a href="#d-install_3-2050d">0 pass &middot; 1 fail</a></td>
+</tr>
+<tr><th>install-4</th>
+<td class="g"><a href="#d-install_4-2047c">21 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-install_4-2050c">21 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-install_4-2050d">21 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>installer-file</th>
+<td class="g"><a href="#d-installer_file-2047c">6 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-installer_file-2050c">6 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-installer_file-2050d">6 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>metrics</th>
+<td class="r"><a href="#d-metrics-2047c">2 pass &middot; 1 fail</a></td>
+<td class="g"><a href="#d-metrics-2050c">3 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-metrics-2050d">3 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>random-apps</th>
+<td class="g"><a href="#d-random_apps-2047c">8 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-random_apps-2050c">9 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-random_apps-2050d">9 pass &middot; 0 fail</a></td>
+</tr>
+<tr><th>ui</th>
+<td class="r"><a href="#d-ui-2047c">15 pass &middot; 19 fail</a></td>
+<td class="g"><a href="#d-ui-2050c">34 pass &middot; 0 fail</a></td>
+<td class="r"><a href="#d-ui-2050d">33 pass &middot; 1 fail</a></td>
+</tr>
+<tr><th>uninstall</th>
+<td class="g"><a href="#d-uninstall-2047c">6 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-uninstall-2050c">7 pass &middot; 0 fail</a></td>
+<td class="g"><a href="#d-uninstall-2050d">7 pass &middot; 0 fail</a></td>
+</tr>
+</tbody></table>
+<h1>Detail</h1>
+<details id="d-after_install-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> after-install @ 2047c <span class="pill">passed &middot; 37 pass, 0 fail, 0 warn &middot; 2m 33s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-after_install-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> after-install @ 2050c <span class="pill">passed &middot; 37 pass, 0 fail, 0 warn &middot; 2m 33s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-after_install-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> after-install @ 2050d <span class="pill">passed &middot; 37 pass, 0 fail, 0 warn &middot; 2m 41s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-cpg-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> cpg @ 2047c <span class="pill">passed &middot; 12 pass, 0 fail, 0 warn &middot; 5m 0s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-cpg-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> cpg @ 2050c <span class="pill">passed &middot; 12 pass, 0 fail, 0 warn &middot; 5m 2s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-cpg-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> cpg @ 2050d <span class="pill">passed &middot; 12 pass, 0 fail, 0 warn &middot; 3m 5s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-crash_dump-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> crash-dump @ 2047c <span class="pill">passed &middot; 10 pass, 0 fail, 0 warn &middot; 5m 15s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-crash_dump-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> crash-dump @ 2050c <span class="pill">passed &middot; 11 pass, 0 fail, 0 warn &middot; 4m 19s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-crash_dump-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> crash-dump @ 2050d <span class="pill">passed &middot; 11 pass, 0 fail, 0 warn &middot; 4m 26s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_1-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> install-1 @ 2047c <span class="pill">passed &middot; 20 pass, 0 fail, 0 warn &middot; 1m 31s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_1-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> install-1 @ 2050c <span class="pill">passed &middot; 20 pass, 0 fail, 0 warn &middot; 1m 34s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_1-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> install-1 @ 2050d <span class="pill">passed &middot; 20 pass, 0 fail, 0 warn &middot; 1m 32s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_2-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> install-2 @ 2047c <span class="pill">passed &middot; 1 pass, 0 fail, 0 warn &middot; 1m 20s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_2-2050c" open>
+<summary><span style="color:#cf222e">&#9679;</span> install-2 @ 2050c <span class="pill">failed &middot; 0 pass, 1 fail, 0 warn &middot; 1m 17s</span></summary>
+<div class="body">
+<p><b>1 failing check(s)</b>
+</p>
+<pre>2026/09/16 06:19:36 ❌ [FAIL] Installer process did not terminate after cancellation.</pre>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_2-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> install-2 @ 2050d <span class="pill">passed &middot; 1 pass, 0 fail, 0 warn &middot; 1m 16s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_3-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> install-3 @ 2047c <span class="pill">passed &middot; 1 pass, 0 fail, 0 warn &middot; 1m 19s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_3-2050c" open>
+<summary><span style="color:#cf222e">&#9679;</span> install-3 @ 2050c <span class="pill">failed &middot; 0 pass, 1 fail, 0 warn &middot; 1m 24s</span></summary>
+<div class="body">
+<p><b>1 failing check(s)</b>
+</p>
+<pre>2026/09/16 06:21:58 ❌ [FAIL] Installer process did not terminate after cancellation.</pre>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_3-2050d" open>
+<summary><span style="color:#cf222e">&#9679;</span> install-3 @ 2050d <span class="pill">failed &middot; 0 pass, 1 fail, 0 warn &middot; 1m 17s</span></summary>
+<div class="body">
+<p><b>1 failing check(s)</b>
+</p>
+<pre>2026/09/16 07:11:41 ❌ [FAIL] Installer process did not terminate after cancellation.</pre>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_4-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> install-4 @ 2047c <span class="pill">passed &middot; 21 pass, 0 fail, 0 warn &middot; 1m 41s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_4-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> install-4 @ 2050c <span class="pill">passed &middot; 21 pass, 0 fail, 0 warn &middot; 1m 37s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-install_4-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> install-4 @ 2050d <span class="pill">passed &middot; 21 pass, 0 fail, 0 warn &middot; 1m 37s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-installer_file-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> installer-file @ 2047c <span class="pill">passed &middot; 6 pass, 0 fail, 0 warn &middot; 3m 12s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-installer_file-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> installer-file @ 2050c <span class="pill">passed &middot; 6 pass, 0 fail, 0 warn &middot; 3m 7s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-installer_file-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> installer-file @ 2050d <span class="pill">passed &middot; 6 pass, 0 fail, 0 warn &middot; 3m 12s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-metrics-2047c" open>
+<summary><span style="color:#cf222e">&#9679;</span> metrics @ 2047c <span class="pill">failed &middot; 2 pass, 1 fail, 0 warn &middot; 4m 37s</span></summary>
+<div class="body">
+<p><b>1 failing check(s)</b>
+</p>
+<pre>❌ [FAIL] PCA CPU (background): 1.44 core(s) of work (36% of 4 cores), allowance 1.38 core(s) (10% of 12 +15% for virtualisation)</pre>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-metrics-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> metrics @ 2050c <span class="pill">passed &middot; 3 pass, 0 fail, 0 warn &middot; 4m 34s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-metrics-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> metrics @ 2050d <span class="pill">passed &middot; 3 pass, 0 fail, 0 warn &middot; 4m 6s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-random_apps-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> random-apps @ 2047c <span class="pill">passed &middot; 8 pass, 0 fail, 0 warn &middot; 3m 52s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-random_apps-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> random-apps @ 2050c <span class="pill">passed &middot; 9 pass, 0 fail, 0 warn &middot; 3m 15s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-random_apps-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> random-apps @ 2050d <span class="pill">passed &middot; 9 pass, 0 fail, 1 warn &middot; 3m 42s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-ui-2047c" open>
+<summary><span style="color:#cf222e">&#9679;</span> ui @ 2047c <span class="pill">failed &middot; 15 pass, 19 fail, 0 warn &middot; 22m 43s</span></summary>
+<div class="body">
+<p><b>19 failing check(s)</b>
+</p>
+<pre>❌ [FAIL] Home tab NOT found in PCA Main window.
+❌ [FAIL] 'Recommended For You' element NOT found in PCA Main window.
+❌ [FAIL] Apps tab NOT found in PCA Main window.
+❌ [FAIL] Apps tab: 'All Apps' NOT found.
+❌ [FAIL] Apps tab: 'Tools' NOT found.
+❌ [FAIL] Apps tab: 'Social' NOT found.
+❌ [FAIL] Apps tab: 'Music' NOT found.
+❌ [FAIL] Apps tab: 'Streaming' NOT found.
+❌ [FAIL] Apps tab: 'Education' NOT found.
+❌ [FAIL] Apps tab: 'Lifestyle' NOT found.
+❌ [FAIL] Apps tab: 'Design' NOT found.
+❌ [FAIL] Apps tab: 'News' NOT found.
+❌ [FAIL] Games tab NOT found in PCA Main window.
+❌ [FAIL] Games tab: 'All Games' NOT found.
+❌ [FAIL] Games tab: 'Action' NOT found.
+❌ [FAIL] Games tab: 'Adventure' NOT found.
+❌ [FAIL] Games tab: 'Card' NOT found.
+❌ [FAIL] Games tab: 'Casual' NOT found.
+❌ [FAIL] Games tab: 'Puzzle' NOT found.</pre>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-ui-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> ui @ 2050c <span class="pill">passed &middot; 34 pass, 0 fail, 0 warn &middot; 4m 12s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-ui-2050d" open>
+<summary><span style="color:#cf222e">&#9679;</span> ui @ 2050d <span class="pill">failed &middot; 33 pass, 1 fail, 0 warn &middot; 5m 27s</span></summary>
+<div class="body">
+<p><b>1 failing check(s)</b>
+</p>
+<pre>❌ [FAIL] Apps tab: 'All Apps' NOT found.</pre>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-uninstall-2047c">
+<summary><span style="color:#1a7f37">&#9679;</span> uninstall @ 2047c <span class="pill">passed &middot; 6 pass, 0 fail, 0 warn &middot; 2m 21s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-uninstall-2050c">
+<summary><span style="color:#1a7f37">&#9679;</span> uninstall @ 2050c <span class="pill">passed &middot; 7 pass, 0 fail, 0 warn &middot; 2m 40s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+<details id="d-uninstall-2050d">
+<summary><span style="color:#1a7f37">&#9679;</span> uninstall @ 2050d <span class="pill">passed &middot; 7 pass, 0 fail, 0 warn &middot; 2m 22s</span></summary>
+<div class="body">
+<p>Nothing failed.</p>
+<p class="pill">machine guid {358e4d56-1b46-fb76-9e58-cc794233a5fa}</p>
+</div></details>
+</body></html>
