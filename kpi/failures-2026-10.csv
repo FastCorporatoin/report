@@ -1,0 +1,11 @@
+date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:23:58.5633280Z,20261001-162315-dsr-v3-2047c-slot2,dsr-v3,2047c,141,ecdedece64,_Playwright_CleanupV<N>StatsAfterInstall: timed out after <VER>
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,8b3ca601b7,"Chrome: asked for DSR <N> (version=<N>), the browser got version=<VER>"
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,de47a3dfad,"Chrome: DSR <N> is plain, so it should search on www.search-sync.com/re.html - it uses www.search-withus.com/rf.html"
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,a2360daa0f,"DSR check failed: Chrome has a DSR, but not the one this run asked for"
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,232914b8e2,"Edge: asked for DSR <N> (version=<N>), the browser got version=<VER>"
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,e878fbf390,"Edge: DSR <N> is plain, so it should search on www.search-sync.com/re.html - it uses www.search-withus.com/rf.html"
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,4fe2d2b064,"DSR check failed: Edge has a DSR, but not the one this run asked for"
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,26788b63b9,"Browser verification failed - Chrome: False, Edge: False, Chrome default SE: True"
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,031fd4db9c,DSR install verification failed in the browsers
+2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,81e1a8443b,_Playwright_CheckImpersonateGuid: timed out after <VER>
