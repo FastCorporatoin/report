@@ -9,3 +9,4 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,26788b63b9,"Browser verification failed - Chrome: False, Edge: False, Chrome default SE: True"
 2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,031fd4db9c,DSR install verification failed in the browsers
 2026-10-01,2026-10-01-evening,3,2026-10-01T14:46:39.0363032Z,20261001-164558-dsr-v3-2050h-slot2,dsr-v3,2050h,141,81e1a8443b,_Playwright_CheckImpersonateGuid: timed out after <VER>
+2026-10-01,2026-10-01-evening,3,2026-10-01T16:07:48.3526618Z,20261001-180707-random-apps-2050h-slot1,random-apps,2050h,,9ed89276e3,TeamViewer - no new process/window detected after clicking Install
