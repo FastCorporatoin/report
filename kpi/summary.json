@@ -1,0 +1,265 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-10-01T09:56:22.450Z",
+ "since": "2026-10-01",
+ "rules": {
+  "history": 30,
+  "minRuns": 5,
+  "flakyFlips": 2
+ },
+ "totals": {
+  "runs": 6,
+  "fails": 0,
+  "infra": 0,
+  "failurePct": 0,
+  "reliabilityPct": 100,
+  "infraPct": 0
+ },
+ "suites": [
+  {
+   "suite": "dsr-v3",
+   "runs": 6,
+   "fails": 0,
+   "infra": 0,
+   "versions": 6,
+   "flakyVersions": 0,
+   "classification": "new",
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0
+  }
+ ],
+ "versions": [
+  {
+   "version": "2050h",
+   "runs": 2,
+   "fails": 0,
+   "infra": 0,
+   "blocks": 2,
+   "flakyBlocks": 0,
+   "brokenBlocks": 0,
+   "startedFailingBlocks": 0,
+   "classification": "new",
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "vsPrevVersion": {
+    "version": "2050g",
+    "reliabilityPct": 100,
+    "deltaPts": 0
+   }
+  },
+  {
+   "version": "2050g",
+   "runs": 2,
+   "fails": 0,
+   "infra": 0,
+   "blocks": 2,
+   "flakyBlocks": 0,
+   "brokenBlocks": 0,
+   "startedFailingBlocks": 0,
+   "classification": "new",
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "vsPrevVersion": {
+    "version": "2047c",
+    "reliabilityPct": 100,
+    "deltaPts": 0
+   }
+  },
+  {
+   "version": "2047c",
+   "runs": 2,
+   "fails": 0,
+   "infra": 0,
+   "blocks": 2,
+   "flakyBlocks": 0,
+   "brokenBlocks": 0,
+   "startedFailingBlocks": 0,
+   "classification": "new",
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "vsPrevVersion": null
+  }
+ ],
+ "blocks": [
+  {
+   "suite": "dsr-v3",
+   "version": "2047c",
+   "dsrVersion": "141",
+   "runs": 1,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "classification": "new",
+   "flips": 0,
+   "recent": "P",
+   "avgDurationSec": 659,
+   "lastStatus": "passed",
+   "lastSeen": "2026-10-01",
+   "vsPrevVersion": null
+  },
+  {
+   "suite": "dsr-v3",
+   "version": "2050g",
+   "dsrVersion": "141",
+   "runs": 1,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "classification": "new",
+   "flips": 0,
+   "recent": "P",
+   "avgDurationSec": 541,
+   "lastStatus": "passed",
+   "lastSeen": "2026-10-01",
+   "vsPrevVersion": {
+    "version": "2047c",
+    "reliabilityPct": 100,
+    "deltaPts": 0
+   }
+  },
+  {
+   "suite": "dsr-v3",
+   "version": "2050h",
+   "dsrVersion": "141",
+   "runs": 1,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "classification": "new",
+   "flips": 0,
+   "recent": "P",
+   "avgDurationSec": 531,
+   "lastStatus": "passed",
+   "lastSeen": "2026-10-01",
+   "vsPrevVersion": {
+    "version": "2050g",
+    "reliabilityPct": 100,
+    "deltaPts": 0
+   }
+  },
+  {
+   "suite": "dsr-v3",
+   "version": "2047c",
+   "dsrVersion": "141a",
+   "runs": 1,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "classification": "new",
+   "flips": 0,
+   "recent": "P",
+   "avgDurationSec": 530,
+   "lastStatus": "passed",
+   "lastSeen": "2026-10-01",
+   "vsPrevVersion": null
+  },
+  {
+   "suite": "dsr-v3",
+   "version": "2050g",
+   "dsrVersion": "141a",
+   "runs": 1,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "classification": "new",
+   "flips": 0,
+   "recent": "P",
+   "avgDurationSec": 564,
+   "lastStatus": "passed",
+   "lastSeen": "2026-10-01",
+   "vsPrevVersion": {
+    "version": "2047c",
+    "reliabilityPct": 100,
+    "deltaPts": 0
+   }
+  },
+  {
+   "suite": "dsr-v3",
+   "version": "2050h",
+   "dsrVersion": "141a",
+   "runs": 1,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "classification": "new",
+   "flips": 0,
+   "recent": "P",
+   "avgDurationSec": 551,
+   "lastStatus": "passed",
+   "lastSeen": "2026-10-01",
+   "vsPrevVersion": {
+    "version": "2050g",
+    "reliabilityPct": 100,
+    "deltaPts": 0
+   }
+  }
+ ],
+ "checks": [],
+ "metrics": [],
+ "metricSeries": [],
+ "versionSeries": [
+  {
+   "date": "2026-10-01",
+   "window": "2026-10-01-evening",
+   "version": "2047c",
+   "runs": 2,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0
+  },
+  {
+   "date": "2026-10-01",
+   "window": "2026-10-01-evening",
+   "version": "2050g",
+   "runs": 2,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0
+  },
+  {
+   "date": "2026-10-01",
+   "window": "2026-10-01-evening",
+   "version": "2050h",
+   "runs": 2,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0
+  }
+ ],
+ "daily": [
+  {
+   "date": "2026-10-01",
+   "window": "2026-10-01-evening",
+   "suite": "dsr-v3",
+   "runs": 6,
+   "fails": 0,
+   "infra": 0,
+   "failurePct": 0,
+   "reliabilityPct": 100,
+   "infraPct": 0,
+   "avgDurationMin": 9.4
+  }
+ ]
+}
