@@ -13,3 +13,5 @@ date,window,attempt,startedAt,runId,build,version,dsrVersion,metric,value,allowe
 2026-10-01,2026-10-01-evening,2,2026-10-01T15:44:38.3915860Z,20261001-174356-metrics-2050g-slot1,259,2050g,,PCA CPU (background),0.09,1.38,core(s),-93.5,6.5
 2026-10-01,2026-10-01-evening,3,2026-10-01T16:31:27.2201649Z,20261001-183035-metrics-2050h-slot1,259,2050h,,PCA CPU (foreground),0.12,2.76,core(s),-95.7,4.3
 2026-10-01,2026-10-01-evening,3,2026-10-01T16:31:27.2201649Z,20261001-183035-metrics-2050h-slot1,259,2050h,,PCA CPU (background),0.09,1.38,core(s),-93.5,6.5
+2026-10-02,2026-10-02-evening,1,2026-10-02T08:26:38.5519289Z,20261002-102600-metrics-2050h-slot1,263,2050h,,PCA CPU (foreground),0.17,2.76,core(s),-93.8,6.2
+2026-10-02,2026-10-02-evening,1,2026-10-02T08:26:38.5519289Z,20261002-102600-metrics-2050h-slot1,263,2050h,,PCA CPU (background),0.12,1.38,core(s),-91.3,8.7
