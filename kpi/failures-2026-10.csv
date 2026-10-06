@@ -16,3 +16,9 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-02,2026-10-02-evening,1,2026-10-02T12:51:38.9244883Z,20261002-145059-dsr-v3-2047c-slot2,dsr-v3,2047c,142a,8198ec895b,"Offers' stat: row with OID ""<N>"" not found"
 2026-10-02,2026-10-02-evening,1,2026-10-02T12:51:38.9244883Z,20261002-145059-dsr-v3-2047c-slot2,dsr-v3,2047c,142a,cee7689993,Admin check completed with <N> failure(s)
 2026-10-06,2026-10-06-evening,1,2026-10-06T13:39:18.7946103Z,20261006-153837-random-apps-2050ha-slot1,random-apps,2050ha,,744ece8497,SanoftPOS - no new process/window detected after clicking Install
+2026-10-06,2026-10-06-evening,2,2026-10-06T20:40:53.8975888Z,20261006-224002-ui-2050hb-slot1,ui,2050hb,,951b032bc7,Apps tab: 'Streaming' NOT found.
+2026-10-06,2026-10-06-evening,2,2026-10-06T20:40:53.8975888Z,20261006-224002-ui-2050hb-slot1,ui,2050hb,,5ae2d4142b,Apps tab: 'Education' NOT found.
+2026-10-06,2026-10-06-evening,2,2026-10-06T20:40:53.8975888Z,20261006-224002-ui-2050hb-slot1,ui,2050hb,,a4ba6ed42c,Apps tab: 'Lifestyle' NOT found.
+2026-10-06,2026-10-06-evening,2,2026-10-06T20:40:53.8975888Z,20261006-224002-ui-2050hb-slot1,ui,2050hb,,396c3eb54c,Apps tab: 'Design' NOT found.
+2026-10-06,2026-10-06-evening,2,2026-10-06T20:40:53.8975888Z,20261006-224002-ui-2050hb-slot1,ui,2050hb,,4b70b54aae,Apps tab: 'News' NOT found.
+2026-10-06,2026-10-06-evening,2,2026-10-06T20:40:53.8975888Z,20261006-224002-ui-2050hb-slot1,ui,2050hb,,bf26ca81f2,Games tab NOT found in PCA Main window.
