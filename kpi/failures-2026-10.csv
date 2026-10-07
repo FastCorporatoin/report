@@ -24,3 +24,4 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-06,2026-10-06-evening,2,2026-10-06T20:40:53.8975888Z,20261006-224002-ui-2050hb-slot1,ui,2050hb,,bf26ca81f2,Games tab NOT found in PCA Main window.
 2026-10-07,2026-10-07-evening,1,2026-10-07T09:53:55.1539044Z,20261007-115308-ui-2050ha-slot1,ui,2050ha,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
 2026-10-07,2026-10-07-evening,1,2026-10-07T10:03:40.0601294Z,20261007-120301-random-apps-2050ha-slot1,random-apps,2050ha,,185dad1a2a,ToDoQueue - no new process/window detected after clicking Install
+2026-10-07,2026-10-07-evening,1,2026-10-07T11:51:22.7242569Z,20261007-135041-after-install-2050hb-slot1,after-install,2050hb,,1976cb689a,File not found: <PATH> Files (x<N>)\PCAppStore\AutoUpdater.exe
