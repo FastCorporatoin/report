@@ -36,3 +36,18 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-08,2026-10-08-evening,1,2026-10-08T18:09:39.3756551Z,20261008-200855-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,057be1eb97,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
 2026-10-08,2026-10-08-evening,1,2026-10-08T18:09:39.3756551Z,20261008-200855-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,ec15e222cb,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
 2026-10-08,2026-10-08-evening,1,2026-10-08T18:09:39.3756551Z,20261008-200855-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,460989b569,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-08,2026-10-08-evening,1,2026-10-08T17:03:30.1233116Z,20261008-190243-ui-2050g-slot1,ui,2050g,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:00:51.5144221Z,20261008-200010-random-apps-2050h-slot1,random-apps,2050h,,a7b26638ed,Failed to find application using search field!
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:00:51.5144221Z,20261008-200010-random-apps-2050h-slot1,random-apps,2050h,,6f4f8f2599,Could not find Screen Recorder – Video & Audio Capture via search
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:32:07.9788093Z,20261008-203128-cpg-2050h-slot1,cpg,2050h,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:32:07.9788093Z,20261008-203128-cpg-2050h-slot1,cpg,2050h,,1314510b9d,CPG initial admin action failed
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:34:19.8115269Z,20261008-203336-ui-2050ha-slot1,ui,2050ha,,55322e6e79,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:34:19.8115269Z,20261008-203336-ui-2050ha-slot1,ui,2050ha,,85f78fbddc,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:34:19.8115269Z,20261008-203336-ui-2050ha-slot1,ui,2050ha,,1d83aa4429,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-08,2026-10-08-evening,1,2026-10-08T19:06:43.3125951Z,20261008-210604-cpg-2050ha-slot1,cpg,2050ha,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-08,2026-10-08-evening,1,2026-10-08T19:06:43.3125951Z,20261008-210604-cpg-2050ha-slot1,cpg,2050ha,,1314510b9d,CPG initial admin action failed
+2026-10-08,2026-10-08-evening,1,2026-10-08T19:09:14.6810640Z,20261008-210832-ui-2050hb-slot1,ui,2050hb,,55322e6e79,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-08,2026-10-08-evening,1,2026-10-08T19:09:14.6810640Z,20261008-210832-ui-2050hb-slot1,ui,2050hb,,85f78fbddc,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-08,2026-10-08-evening,1,2026-10-08T19:09:14.6810640Z,20261008-210832-ui-2050hb-slot1,ui,2050hb,,1d83aa4429,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-08,2026-10-08-evening,1,2026-10-08T19:41:41.1075834Z,20261008-214100-cpg-2050hb-slot1,cpg,2050hb,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-08,2026-10-08-evening,1,2026-10-08T19:41:41.1075834Z,20261008-214100-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
