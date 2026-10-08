@@ -26,3 +26,7 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-07,2026-10-07-evening,1,2026-10-07T10:03:40.0601294Z,20261007-120301-random-apps-2050ha-slot1,random-apps,2050ha,,185dad1a2a,ToDoQueue - no new process/window detected after clicking Install
 2026-10-07,2026-10-07-evening,1,2026-10-07T11:51:22.7242569Z,20261007-135041-after-install-2050hb-slot1,after-install,2050hb,,1976cb689a,File not found: <PATH> Files (x<N>)\PCAppStore\AutoUpdater.exe
 2026-10-07,2026-10-07-evening,1,2026-10-07T17:49:24.5095411Z,20261007-194844-ui-2050h-slot1,ui,2050h,,a16f1e76d6,V<N> statistics: <N> row(s) still there after Remove
+2026-10-08,2026-10-08-morning,1,2026-10-08T03:45:15.7323216Z,20261008-054435-ui-2050h-slot1,ui,2050h,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-08,2026-10-08-morning,1,2026-10-08T03:54:18.6810054Z,20261008-055339-random-apps-2050h-slot1,random-apps,2050h,,a7b26638ed,Failed to find application using search field!
+2026-10-08,2026-10-08-morning,1,2026-10-08T03:54:18.6810054Z,20261008-055339-random-apps-2050h-slot1,random-apps,2050h,,c7390f663d,Could not find SEO+Checker via search
+2026-10-08,2026-10-08-morning,1,2026-10-08T04:31:40.6772417Z,20261008-063103-ui-2050ha-slot1,ui,2050ha,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
