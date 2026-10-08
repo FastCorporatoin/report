@@ -30,3 +30,9 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-08,2026-10-08-morning,1,2026-10-08T03:54:18.6810054Z,20261008-055339-random-apps-2050h-slot1,random-apps,2050h,,a7b26638ed,Failed to find application using search field!
 2026-10-08,2026-10-08-morning,1,2026-10-08T03:54:18.6810054Z,20261008-055339-random-apps-2050h-slot1,random-apps,2050h,,c7390f663d,Could not find SEO+Checker via search
 2026-10-08,2026-10-08-morning,1,2026-10-08T04:31:40.6772417Z,20261008-063103-ui-2050ha-slot1,ui,2050ha,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:05:22.1283013Z,20261008-200440-dsr-v3-2050ha-slot2,dsr-v3,2050ha,142a,057be1eb97,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:05:22.1283013Z,20261008-200440-dsr-v3-2050ha-slot2,dsr-v3,2050ha,142a,ec15e222cb,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:05:22.1283013Z,20261008-200440-dsr-v3-2050ha-slot2,dsr-v3,2050ha,142a,460989b569,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:09:39.3756551Z,20261008-200855-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,057be1eb97,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:09:39.3756551Z,20261008-200855-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,ec15e222cb,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-08,2026-10-08-evening,1,2026-10-08T18:09:39.3756551Z,20261008-200855-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,460989b569,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
