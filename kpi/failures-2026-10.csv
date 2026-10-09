@@ -75,3 +75,23 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-09,2026-10-09-morning,1,2026-10-09T03:39:14.2313551Z,20261009-053833-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,057be1eb97,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
 2026-10-09,2026-10-09-morning,1,2026-10-09T03:39:14.2313551Z,20261009-053833-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,ec15e222cb,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
 2026-10-09,2026-10-09-morning,1,2026-10-09T03:39:14.2313551Z,20261009-053833-dsr-v3-2050hb-slot2,dsr-v3,2050hb,142a,460989b569,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:01:46.0060690Z,20261009-050102-ui-2050g-slot1,ui,2050g,,55322e6e79,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:01:46.0060690Z,20261009-050102-ui-2050g-slot1,ui,2050g,,85f78fbddc,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:01:46.0060690Z,20261009-050102-ui-2050g-slot1,ui,2050g,,1d83aa4429,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:34:16.2335070Z,20261009-053335-cpg-2050g-slot1,cpg,2050g,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:34:16.2335070Z,20261009-053335-cpg-2050g-slot1,cpg,2050g,,1314510b9d,CPG initial admin action failed
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:36:22.3015867Z,20261009-053542-ui-2050h-slot1,ui,2050h,,55322e6e79,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:36:22.3015867Z,20261009-053542-ui-2050h-slot1,ui,2050h,,85f78fbddc,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-09,2026-10-09-morning,1,2026-10-09T03:36:22.3015867Z,20261009-053542-ui-2050h-slot1,ui,2050h,,1d83aa4429,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:08:31.8770190Z,20261009-060750-cpg-2050h-slot1,cpg,2050h,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:08:31.8770190Z,20261009-060750-cpg-2050h-slot1,cpg,2050h,,1314510b9d,CPG initial admin action failed
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:10:42.8790008Z,20261009-060958-ui-2050ha-slot1,ui,2050ha,,55322e6e79,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:10:42.8790008Z,20261009-060958-ui-2050ha-slot1,ui,2050ha,,85f78fbddc,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:10:42.8790008Z,20261009-060958-ui-2050ha-slot1,ui,2050ha,,1d83aa4429,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:43:15.3905910Z,20261009-064234-cpg-2050ha-slot1,cpg,2050ha,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:43:15.3905910Z,20261009-064234-cpg-2050ha-slot1,cpg,2050ha,,1314510b9d,CPG initial admin action failed
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:45:21.5484508Z,20261009-064442-ui-2050hb-slot1,ui,2050hb,,55322e6e79,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:45:21.5484508Z,20261009-064442-ui-2050hb-slot1,ui,2050hb,,85f78fbddc,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #2
+2026-10-09,2026-10-09-morning,1,2026-10-09T04:45:21.5484508Z,20261009-064442-ui-2050hb-slot1,ui,2050hb,,1d83aa4429,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn #3
+2026-10-09,2026-10-09-morning,1,2026-10-09T05:17:11.5503199Z,20261009-071631-cpg-2050hb-slot1,cpg,2050hb,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
+2026-10-09,2026-10-09-morning,1,2026-10-09T05:17:11.5503199Z,20261009-071631-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
