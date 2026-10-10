@@ -96,3 +96,12 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-09,2026-10-09-morning,1,2026-10-09T05:17:11.5503199Z,20261009-071631-cpg-2050hb-slot1,cpg,2050hb,,128bda8ecf,page.goto: net::ERR_NAME_NOT_RESOLVED at https://abmng.com/admin/?r=admin/logIn
 2026-10-09,2026-10-09-morning,1,2026-10-09T05:17:11.5503199Z,20261009-071631-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
 2026-10-09,2026-10-09-evening,1,2026-10-09T17:54:33.9168180Z,20261009-195352-random-apps-2050h-slot1,random-apps,2050h,,222ce93a57,Printer Driver Fixer - no new process/window detected after clicking Install
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,a1573c8a76,Apps tab: 'All Apps' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,4d133142d9,Apps tab: 'Tools' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,b121afc133,Apps tab: 'Social' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,024eaf4b9a,Apps tab: 'Music' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,951b032bc7,Apps tab: 'Streaming' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,5ae2d4142b,Apps tab: 'Education' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,a4ba6ed42c,Apps tab: 'Lifestyle' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,396c3eb54c,Apps tab: 'Design' NOT found.
+2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,4b70b54aae,Apps tab: 'News' NOT found.
