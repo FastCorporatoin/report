@@ -106,3 +106,13 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,396c3eb54c,Apps tab: 'Design' NOT found.
 2026-10-10,2026-10-10-morning,1,2026-10-10T03:47:17.7971252Z,20261010-054637-ui-2050h-slot1,ui,2050h,,4b70b54aae,Apps tab: 'News' NOT found.
 2026-10-12,2026-10-12-morning,1,2026-10-12T03:54:58.0787284Z,20261012-055419-random-apps-2050h-slot1,random-apps,2050h,,bd9373c9b7,Screen Share (View) - no new process/window detected after clicking Install
+2026-10-12,2026-10-12-evening,1,2026-10-12T17:03:35.2892699Z,20261012-190250-ui-2050g-slot1,ui,2050g,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-12,2026-10-12-evening,1,2026-10-12T17:45:42.3099777Z,20261012-194502-cpg-2050g-slot1,cpg,2050g,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-12,2026-10-12-evening,1,2026-10-12T17:45:42.3099777Z,20261012-194502-cpg-2050g-slot1,cpg,2050g,,1314510b9d,CPG initial admin action failed
+2026-10-12,2026-10-12-evening,1,2026-10-12T17:48:47.3708645Z,20261012-194809-ui-2050h-slot1,ui,2050h,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-12,2026-10-12-evening,1,2026-10-12T18:31:46.4731294Z,20261012-203108-cpg-2050h-slot1,cpg,2050h,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-12,2026-10-12-evening,1,2026-10-12T18:31:46.4731294Z,20261012-203108-cpg-2050h-slot1,cpg,2050h,,1314510b9d,CPG initial admin action failed
+2026-10-12,2026-10-12-evening,1,2026-10-12T19:18:46.4816514Z,20261012-211805-cpg-2050ha-slot1,cpg,2050ha,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-12,2026-10-12-evening,1,2026-10-12T19:18:46.4816514Z,20261012-211805-cpg-2050ha-slot1,cpg,2050ha,,1314510b9d,CPG initial admin action failed
+2026-10-12,2026-10-12-evening,1,2026-10-12T20:06:24.7653491Z,20261012-220545-cpg-2050hb-slot1,cpg,2050hb,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-12,2026-10-12-evening,1,2026-10-12T20:06:24.7653491Z,20261012-220545-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
