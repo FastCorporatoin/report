@@ -116,3 +116,14 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-12,2026-10-12-evening,1,2026-10-12T19:18:46.4816514Z,20261012-211805-cpg-2050ha-slot1,cpg,2050ha,,1314510b9d,CPG initial admin action failed
 2026-10-12,2026-10-12-evening,1,2026-10-12T20:06:24.7653491Z,20261012-220545-cpg-2050hb-slot1,cpg,2050hb,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
 2026-10-12,2026-10-12-evening,1,2026-10-12T20:06:24.7653491Z,20261012-220545-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
+2026-10-15,2026-10-15-morning,1,2026-10-15T03:01:48.1871931Z,20261015-050107-ui-2050g-slot1,ui,2050g,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-15,2026-10-15-morning,1,2026-10-15T03:42:32.2993523Z,20261015-054151-cpg-2050g-slot1,cpg,2050g,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-15,2026-10-15-morning,1,2026-10-15T03:42:32.2993523Z,20261015-054151-cpg-2050g-slot1,cpg,2050g,,1314510b9d,CPG initial admin action failed
+2026-10-15,2026-10-15-morning,1,2026-10-15T04:28:05.5906975Z,20261015-062726-cpg-2050h-slot1,cpg,2050h,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-15,2026-10-15-morning,1,2026-10-15T04:28:05.5906975Z,20261015-062726-cpg-2050h-slot1,cpg,2050h,,1314510b9d,CPG initial admin action failed
+2026-10-15,2026-10-15-morning,1,2026-10-15T04:31:12.2635744Z,20261015-063033-ui-2050ha-slot1,ui,2050ha,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-15,2026-10-15-morning,1,2026-10-15T05:10:40.1423029Z,20261015-071002-cpg-2050ha-slot1,cpg,2050ha,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-15,2026-10-15-morning,1,2026-10-15T05:10:40.1423029Z,20261015-071002-cpg-2050ha-slot1,cpg,2050ha,,1314510b9d,CPG initial admin action failed
+2026-10-15,2026-10-15-morning,1,2026-10-15T05:13:48.8511636Z,20261015-071309-ui-2050hb-slot1,ui,2050hb,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-15,2026-10-15-morning,1,2026-10-15T05:55:00.7087751Z,20261015-075424-cpg-2050hb-slot1,cpg,2050hb,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-15,2026-10-15-morning,1,2026-10-15T05:55:00.7087751Z,20261015-075424-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
