@@ -155,3 +155,17 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-16,2026-10-16-morning,1,2026-10-16T07:14:06.7581612Z,20261016-091328-install-app-2050hb-slot1,install-app,2050hb,,aa9d215873,YouTube Music was not installed - PC App Store shows no 'Open' button
 2026-10-16,2026-10-16-morning,1,2026-10-16T07:49:46.5607882Z,20261016-094906-cpg-2050hb-slot1,cpg,2050hb,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
 2026-10-16,2026-10-16-morning,1,2026-10-16T07:49:46.5607882Z,20261016-094906-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
+2026-10-16,2026-10-16-evening,1,2026-10-16T17:03:27.3433330Z,20261016-190244-ui-2050g-slot1,ui,2050g,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-16,2026-10-16-evening,1,2026-10-16T17:55:44.5697914Z,20261016-195505-ui-2050h-slot1,ui,2050h,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:11:02.3213005Z,20261016-201021-install-app-2050h-slot1,install-app,2050h,,92ecaae0d2,"YouTube Music: PC App Store shows 'Failed. Try again' instead of 'Open', but the app IS installed on the PC (Installed apps: 'YouTube Music Desktop App')"
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,a1573c8a76,Apps tab: 'All Apps' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,4d133142d9,Apps tab: 'Tools' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,b121afc133,Apps tab: 'Social' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,024eaf4b9a,Apps tab: 'Music' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,951b032bc7,Apps tab: 'Streaming' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,5ae2d4142b,Apps tab: 'Education' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,a4ba6ed42c,Apps tab: 'Lifestyle' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,396c3eb54c,Apps tab: 'Design' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,4b70b54aae,Apps tab: 'News' NOT found.
+2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,bf26ca81f2,Games tab NOT found in PCA Main window.
+2026-10-16,2026-10-16-evening,1,2026-10-16T19:20:19.2318201Z,20261016-211941-install-app-2050hb-slot1,install-app,2050hb,,92ecaae0d2,"YouTube Music: PC App Store shows 'Failed. Try again' instead of 'Open', but the app IS installed on the PC (Installed apps: 'YouTube Music Desktop App')"
