@@ -139,3 +139,19 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-15,2026-10-15-evening,1,2026-10-15T21:00:57.5807396Z,20261015-230009-cpg-2050ha-slot1,cpg,2050ha,,1314510b9d,CPG initial admin action failed
 2026-10-15,2026-10-15-evening,1,2026-10-15T22:31:48.3120661Z,20261016-003109-cpg-2050hb-slot1,cpg,2050hb,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
 2026-10-15,2026-10-15-evening,1,2026-10-15T22:31:48.3120661Z,20261016-003109-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
+2026-10-16,2026-10-16-morning,1,2026-10-16T03:01:47.4616403Z,20261016-050107-ui-2050g-slot1,ui,2050g,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-16,2026-10-16-morning,1,2026-10-16T05:11:01.4005963Z,20261016-071022-cpg-2050g-slot1,cpg,2050g,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-16,2026-10-16-morning,1,2026-10-16T05:11:01.4005963Z,20261016-071022-cpg-2050g-slot1,cpg,2050g,,1314510b9d,CPG initial admin action failed
+2026-10-16,2026-10-16-morning,1,2026-10-16T05:14:10.0164062Z,20261016-071329-ui-2050h-slot1,ui,2050h,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-16,2026-10-16-morning,1,2026-10-16T05:29:03.9997326Z,20261016-072825-install-app-2050h-slot1,install-app,2050h,,aa9d215873,YouTube Music was not installed - PC App Store shows no 'Open' button
+2026-10-16,2026-10-16-morning,1,2026-10-16T05:39:09.6598310Z,20261016-073828-after-install-2050h-slot1,after-install,2050h,,d2526c982f,"The app download did not finish downloading within <N> seconds, after it was initiated. This could be broswer or slow internet issue."
+2026-10-16,2026-10-16-morning,1,2026-10-16T06:07:30.7713178Z,20261016-080651-cpg-2050h-slot1,cpg,2050h,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-16,2026-10-16-morning,1,2026-10-16T06:07:30.7713178Z,20261016-080651-cpg-2050h-slot1,cpg,2050h,,1314510b9d,CPG initial admin action failed
+2026-10-16,2026-10-16-morning,1,2026-10-16T06:09:54.1562075Z,20261016-080917-ui-2050ha-slot1,ui,2050ha,,7e5c0b501e,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-16,2026-10-16-morning,1,2026-10-16T06:58:31.0491219Z,20261016-085749-cpg-2050ha-slot1,cpg,2050ha,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-16,2026-10-16-morning,1,2026-10-16T06:58:31.0491219Z,20261016-085749-cpg-2050ha-slot1,cpg,2050ha,,1314510b9d,CPG initial admin action failed
+2026-10-16,2026-10-16-morning,1,2026-10-16T07:00:55.5456260Z,20261016-090016-ui-2050hb-slot1,ui,2050hb,,05f09a1059,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
+2026-10-16,2026-10-16-morning,1,2026-10-16T07:08:34.8248372Z,20261016-090756-random-apps-2050hb-slot1,random-apps,2050hb,,7a9361e295,Simple Controller for ToolSmart Wi-Fi Flashlight Camera - no new process/window detected after clicking Install
+2026-10-16,2026-10-16-morning,1,2026-10-16T07:14:06.7581612Z,20261016-091328-install-app-2050hb-slot1,install-app,2050hb,,aa9d215873,YouTube Music was not installed - PC App Store shows no 'Open' button
+2026-10-16,2026-10-16-morning,1,2026-10-16T07:49:46.5607882Z,20261016-094906-cpg-2050hb-slot1,cpg,2050hb,,4373f3d902,locator.isChecked: Timeout <N>ms exceeded.
+2026-10-16,2026-10-16-morning,1,2026-10-16T07:49:46.5607882Z,20261016-094906-cpg-2050hb-slot1,cpg,2050hb,,1314510b9d,CPG initial admin action failed
