@@ -169,3 +169,12 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,4b70b54aae,Apps tab: 'News' NOT found.
 2026-10-16,2026-10-16-evening,1,2026-10-16T18:51:29.8173270Z,20261016-205052-ui-2050hb-slot1,ui,2050hb,,bf26ca81f2,Games tab NOT found in PCA Main window.
 2026-10-16,2026-10-16-evening,1,2026-10-16T19:20:19.2318201Z,20261016-211941-install-app-2050hb-slot1,install-app,2050hb,,92ecaae0d2,"YouTube Music: PC App Store shows 'Failed. Try again' instead of 'Open', but the app IS installed on the PC (Installed apps: 'YouTube Music Desktop App')"
+2026-10-17,2026-10-17-morning,1,2026-10-17T03:02:03.1092507Z,20261017-050117-ui-2050g-slot1,ui,2050g,,a804723ad0,Home tab NOT found in PCA Main window.
+2026-10-17,2026-10-17-morning,1,2026-10-17T03:02:03.1092507Z,20261017-050117-ui-2050g-slot1,ui,2050g,,48ecc6640b,'Recommended For You' element NOT found in PCA Main window.
+2026-10-17,2026-10-17-morning,1,2026-10-17T03:02:03.1092507Z,20261017-050117-ui-2050g-slot1,ui,2050g,,d0dcf952f3,Apps tab NOT found in PCA Main window.
+2026-10-17,2026-10-17-morning,1,2026-10-17T03:02:03.1092507Z,20261017-050117-ui-2050g-slot1,ui,2050g,,bf26ca81f2,Games tab NOT found in PCA Main window.
+2026-10-17,2026-10-17-morning,1,2026-10-17T03:56:48.7279073Z,20261017-055609-ui-2050h-slot1,ui,2050h,,4b70b54aae,Apps tab: 'News' NOT found.
+2026-10-17,2026-10-17-morning,1,2026-10-17T03:56:48.7279073Z,20261017-055609-ui-2050h-slot1,ui,2050h,,bf26ca81f2,Games tab NOT found in PCA Main window.
+2026-10-17,2026-10-17-morning,1,2026-10-17T04:14:28.9296582Z,20261017-061350-install-app-2050h-slot1,install-app,2050h,,92ecaae0d2,"YouTube Music: PC App Store shows 'Failed. Try again' instead of 'Open', but the app IS installed on the PC (Installed apps: 'YouTube Music Desktop App')"
+2026-10-17,2026-10-17-morning,1,2026-10-17T04:53:55.0247536Z,20261017-065316-ui-2050hb-slot1,ui,2050hb,,48ecc6640b,'Recommended For You' element NOT found in PCA Main window.
+2026-10-17,2026-10-17-morning,1,2026-10-17T05:10:36.8507264Z,20261017-070957-install-app-2050hb-slot1,install-app,2050hb,,92ecaae0d2,"YouTube Music: PC App Store shows 'Failed. Try again' instead of 'Open', but the app IS installed on the PC (Installed apps: 'YouTube Music Desktop App')"
