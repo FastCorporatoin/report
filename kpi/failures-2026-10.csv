@@ -251,3 +251,6 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-27,2026-10-27-morning,1,2026-10-27T04:04:35.2235283Z,20261027-050344-random-apps-2050g-slot3,random-apps,2050g,,a7b26638ed,Failed to find application using search field!
 2026-10-27,2026-10-27-morning,1,2026-10-27T04:04:35.2235283Z,20261027-050344-random-apps-2050g-slot3,random-apps,2050g,,24b3249d30,Could not find Neetoo via search
 2026-10-27,2026-10-27-morning,1,2026-10-27T04:18:16.2233239Z,20261027-051724-install-app-2050g-slot3,install-app,2050g,,92ecaae0d2,"YouTube Music: PC App Store shows 'Failed. Try again' instead of 'Open', but the app IS installed on the PC (Installed apps: 'YouTube Music Desktop App')"
+2026-10-27,2026-10-27-evening,1,2026-10-27T17:04:04.2006786Z,20261027-180308-ui-installer-2050g-slot3,ui-installer,2050g,,8abbacea9c,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-27,2026-10-27-evening,1,2026-10-27T17:04:10.0300618Z,20261027-180308-ui-installer-2050h-slot1,ui-installer,2050h,,8abbacea9c,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
+2026-10-27,2026-10-27-evening,1,2026-10-27T17:04:04.3510588Z,20261027-180308-ui-installer-2050hb-slot4,ui-installer,2050hb,,8abbacea9c,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
