@@ -256,3 +256,6 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-27,2026-10-27-evening,1,2026-10-27T17:04:04.3510588Z,20261027-180308-ui-installer-2050hb-slot4,ui-installer,2050hb,,8abbacea9c,_Playwright_CleanupV<N>StaticsPretest: timed out after <VER>
 2026-10-29,2026-10-29-morning,1,2026-10-29T03:40:20.3193819Z,20261029-043926-install-app-2050h-slot1,install-app,2050h,,8de8bd2bbe,Install button not found (or page still loading) for Webex
 2026-10-29,2026-10-29-morning,1,2026-10-29T03:40:20.3193819Z,20261029-043926-install-app-2050h-slot1,install-app,2050h,,6100d81261,Webex was not installed - the install flow did not complete
+2026-10-30,2026-10-30-evening,1,2026-10-30T17:03:56.7227248Z,20261030-180301-ui-installer-2050g-slot3,ui-installer,2050g,,40d77ba25a,V<N> statistics: <N> row(s) still there after Remove
+2026-10-30,2026-10-30-evening,1,2026-10-30T17:03:58.7942309Z,20261030-180301-ui-installer-2050hb-slot4,ui-installer,2050hb,,40d77ba25a,V<N> statistics: <N> row(s) still there after Remove
+2026-10-30,2026-10-30-evening,1,2026-10-30T17:04:07.1371663Z,20261030-180301-ui-installer-2050h-slot1,ui-installer,2050h,,40d77ba25a,V<N> statistics: <N> row(s) still there after Remove
