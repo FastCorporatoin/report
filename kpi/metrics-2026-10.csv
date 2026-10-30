@@ -265,3 +265,9 @@ date,window,attempt,startedAt,runId,build,version,dsrVersion,metric,value,allowe
 2026-10-29,2026-10-29-evening,1,2026-10-29T18:15:30.5565693Z,20261029-191438-metrics-2050h-slot1,507,2050h,,PCA CPU (background),0.14,1.38,core(s),-89.9,10.1
 2026-10-29,2026-10-29-evening,1,2026-10-29T18:18:18.6267205Z,20261029-191727-metrics-2050hb-slot4,507,2050hb,,PCA CPU (foreground),1.39,2.76,core(s),-49.6,50.4
 2026-10-29,2026-10-29-evening,1,2026-10-29T18:18:18.6267205Z,20261029-191727-metrics-2050hb-slot4,507,2050hb,,PCA CPU (background),1.48,1.38,core(s),7.2,107.2
+2026-10-30,2026-10-30-morning,1,2026-10-30T04:06:11.0196935Z,20261030-050521-metrics-2050g-slot3,508,2050g,,PCA CPU (foreground),0.16,2.76,core(s),-94.2,5.8
+2026-10-30,2026-10-30-morning,1,2026-10-30T04:06:11.0196935Z,20261030-050521-metrics-2050g-slot3,508,2050g,,PCA CPU (background),0.11,1.38,core(s),-92,8
+2026-10-30,2026-10-30-morning,1,2026-10-30T04:07:57.9346266Z,20261030-050706-metrics-2050h-slot1,508,2050h,,PCA CPU (foreground),0.08,2.76,core(s),-97.1,2.9
+2026-10-30,2026-10-30-morning,1,2026-10-30T04:07:57.9346266Z,20261030-050706-metrics-2050h-slot1,508,2050h,,PCA CPU (background),0.05,1.38,core(s),-96.4,3.6
+2026-10-30,2026-10-30-morning,1,2026-10-30T04:10:56.1742644Z,20261030-051006-metrics-2050hb-slot4,508,2050hb,,PCA CPU (foreground),1.34,2.76,core(s),-51.4,48.6
+2026-10-30,2026-10-30-morning,1,2026-10-30T04:10:56.1742644Z,20261030-051006-metrics-2050hb-slot4,508,2050hb,,PCA CPU (background),1.38,1.38,core(s),0,100
