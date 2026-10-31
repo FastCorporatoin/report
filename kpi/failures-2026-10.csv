@@ -270,3 +270,7 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-10-31,2026-10-31-morning,1,2026-10-31T03:36:50.7435610Z,20261031-043600-install-app-2050g-slot3,install-app,2050g,,68f9dacab7,Cannot search for app because App Store Main Window is not open! #3
 2026-10-31,2026-10-31-morning,1,2026-10-31T03:36:50.7435610Z,20261031-043600-install-app-2050g-slot3,install-app,2050g,,fbabcebc26,"Webex: PC App Store shows neither 'Failed. Try again' nor 'Install' instead of 'Open', but the app IS installed on the PC (Installed apps: 'Webex')"
 2026-10-31,2026-10-31-morning,1,2026-10-31T03:02:13.0180041Z,20261031-040117-ui-installer-2050hb-slot4,ui-installer,2050hb,,40d77ba25a,V<N> statistics: <N> row(s) still there after Remove
+2026-10-31,2026-10-31-evening,1,2026-10-31T17:22:12.7340598Z,20261031-182122-ui-main-games-2050g-slot3,ui-main-games,2050g,,8ba3f42bfe,Games tab NOT found in PCA Main window.
+2026-10-31,2026-10-31-evening,1,2026-10-31T17:32:01.0542314Z,20261031-183122-ms-store-app-2050g-slot3,ms-store-app,2050g,,71554772d9,Failed to open App Store after <N> attempts - the Start Menu panel was clicked but no main window followed.
+2026-10-31,2026-10-31-evening,1,2026-10-31T17:32:01.0542314Z,20261031-183122-ms-store-app-2050g-slot3,ms-store-app,2050g,,f5bc83b1e8,Could not open PC App Store for Netflix
+2026-10-31,2026-10-31-evening,1,2026-10-31T17:03:57.5634716Z,20261031-180300-ui-installer-2050hb-slot4,ui-installer,2050hb,,40d77ba25a,V<N> statistics: <N> row(s) still there after Remove
