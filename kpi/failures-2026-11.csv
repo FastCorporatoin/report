@@ -1,0 +1,9 @@
+date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:01:57.1169300Z,20261101-040101-ui-installer-2050hb-slot4,ui-installer,2050hb,,40d77ba25a,V<N> statistics: <N> row(s) still there after Remove
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:34:10.7158282Z,20261101-043319-install-app-2050g-slot3,install-app,2050g,,c1a4ffde43,Failed to open App Store after <N> attempts - the Start Menu panel was clicked but no main window followed.
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:34:10.7158282Z,20261101-043319-install-app-2050g-slot3,install-app,2050g,,087ccf608a,Cannot search for app because App Store Main Window is not open!
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:34:10.7158282Z,20261101-043319-install-app-2050g-slot3,install-app,2050g,,590bff669e,Failed to open App Store after <N> attempts - the Start Menu panel was clicked but no main window followed. #2
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:34:10.7158282Z,20261101-043319-install-app-2050g-slot3,install-app,2050g,,c1397a5187,Cannot search for app because App Store Main Window is not open! #2
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:34:10.7158282Z,20261101-043319-install-app-2050g-slot3,install-app,2050g,,5e55bd1c9a,Failed to open App Store after <N> attempts - the Start Menu panel was clicked but no main window followed. #3
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:34:10.7158282Z,20261101-043319-install-app-2050g-slot3,install-app,2050g,,68f9dacab7,Cannot search for app because App Store Main Window is not open! #3
+2026-11-01,2026-11-01-morning,1,2026-11-01T03:34:10.7158282Z,20261101-043319-install-app-2050g-slot3,install-app,2050g,,fbabcebc26,"Webex: PC App Store shows neither 'Failed. Try again' nor 'Install' instead of 'Open', but the app IS installed on the PC (Installed apps: 'Webex')"
