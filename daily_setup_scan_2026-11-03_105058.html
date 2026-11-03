@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>daily_setup_scan report</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #6b7280; --border: #e5e7eb;
+    --head: #f9fafb; --clean: #15803d; --warn: #b45309; --threat: #b91c1c;
+    --error: #b91c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --fg: #e5e7eb; --muted: #9ca3af; --border: #272b33;
+      --head: #161920; --clean: #4ade80; --warn: #fbbf24; --threat: #f87171;
+      --error: #f87171;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .meta { color: var(--muted); margin-bottom: 16px; }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .pill { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600;
+          border: 1px solid var(--border); }
+  .pill.clean { color: var(--clean); } .pill.warn { color: var(--warn); }
+  .pill.threat, .pill.error { color: var(--threat); }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border);
+           vertical-align: top; }
+  th { background: var(--head); font-size: 12px; text-transform: uppercase;
+        letter-spacing: .04em; color: var(--muted); }
+  td.app { font-weight: 600; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.details { color: var(--fg); font-size: 13px; word-break: break-word; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 12px;
+         font-weight: 600; border: 1px solid currentColor; }
+  .tag.clean { color: var(--clean); } .tag.warn { color: var(--warn); }
+  .tag.threat, .tag.error { color: var(--threat); }
+  .ok { color: var(--clean); } .warn-text { color: var(--warn); font-weight: 600; }
+  .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+  <h1>daily_setup_scan</h1>
+  <div class="meta">1 apps &middot; 2026-11-03 10:50 UTC</div>
+  <div class="pills"><span class="pill warn">1 Download failed</span></div>
+  <table>
+    <thead>
+      <tr><th>App</th><th>Status</th><th>Signature</th><th>VM</th><th>Duration</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+<tr><td class="app">EICAR</td><td><span class="tag warn">Download failed</span></td><td class="muted">—</td><td>vm-1</td><td class="num">1m22s</td><td class="details"><span class="muted">download: Exception calling &quot;OpenRead&quot; with &quot;1&quot; argument(s): &quot;Operation did not complete successfully because the file contains a virus or potentially unwanted software.
+&quot;</span></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
