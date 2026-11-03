@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>daily_setup_scan report</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #6b7280; --border: #e5e7eb;
+    --head: #f9fafb; --clean: #15803d; --warn: #b45309; --threat: #b91c1c;
+    --error: #b91c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --fg: #e5e7eb; --muted: #9ca3af; --border: #272b33;
+      --head: #161920; --clean: #4ade80; --warn: #fbbf24; --threat: #f87171;
+      --error: #f87171;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .meta { color: var(--muted); margin-bottom: 16px; }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .pill { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600;
+          border: 1px solid var(--border); }
+  .pill.clean { color: var(--clean); } .pill.warn { color: var(--warn); }
+  .pill.threat, .pill.error { color: var(--threat); }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border);
+           vertical-align: top; }
+  th { background: var(--head); font-size: 12px; text-transform: uppercase;
+        letter-spacing: .04em; color: var(--muted); }
+  td.app { font-weight: 600; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.details { color: var(--fg); font-size: 13px; word-break: break-word; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 12px;
+         font-weight: 600; border: 1px solid currentColor; }
+  .tag.clean { color: var(--clean); } .tag.warn { color: var(--warn); }
+  .tag.threat, .tag.error { color: var(--threat); }
+  .ok { color: var(--clean); } .warn-text { color: var(--warn); font-weight: 600; }
+  .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+  <h1>daily_setup_scan</h1>
+  <div class="meta">16 apps &middot; 2026-11-03 11:40 UTC</div>
+  <div class="pills"><span class="pill error">2 Timeout</span><span class="pill warn">2 Download failed</span><span class="pill clean">12 Clean</span></div>
+  <table>
+    <thead>
+      <tr><th>App</th><th>Status</th><th>Signature</th><th>VM</th><th>Duration</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+<tr><td class="app">WeChat</td><td><span class="tag error">Timeout</span></td><td class="muted">—</td><td>vm-1</td><td class="num">6m03s</td><td class="details"><span class="muted">download: vmrun timed out after 300s while running [&#x27;-gu&#x27;, &#x27;***&#x27;, &#x27;-gp&#x27;, &#x27;***&#x27;, &#x27;runProgramInGuest&#x27;, &#x27;C:\\VMWare\\Windows 11 x64 Base - 1\\Windows 11 x64 Base - 1.vmx&#x27;, &#x27;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe&#x27;, &#x27;-NoProfile&#x27;, &#x27;-NonInteractive&#x27;, &#x27;-ExecutionPolicy&#x27;, &#x27;Bypass&#x27;, &#x27;-File&#x27;, &#x27;C:\\Windows\\Temp\\download_installer.ps1&#x27;, &#x27;-OutputFile&#x27;, &#x27;C:\\Windows\\Temp\\ps_output_download_installer.json&#x27;, &#x27;-TranscriptFile&#x27;, &#x27;C:\\Windows\\Temp\\ps_transcript_download_installer.log&#x27;, &#x27;-Url&#x27;, &#x27;https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe&#x27;, &#x27;-DestPath&#x27;, &#x27;C:\\scan_input\\installer.exe&#x27;]</span></td></tr>
+<tr><td class="app">Geforce NOW</td><td><span class="tag error">Timeout</span></td><td class="muted">—</td><td>vm-1</td><td class="num">6m02s</td><td class="details"><span class="muted">download: vmrun timed out after 300s while running [&#x27;-gu&#x27;, &#x27;***&#x27;, &#x27;-gp&#x27;, &#x27;***&#x27;, &#x27;runProgramInGuest&#x27;, &#x27;C:\\VMWare\\Windows 11 x64 Base - 1\\Windows 11 x64 Base - 1.vmx&#x27;, &#x27;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe&#x27;, &#x27;-NoProfile&#x27;, &#x27;-NonInteractive&#x27;, &#x27;-ExecutionPolicy&#x27;, &#x27;Bypass&#x27;, &#x27;-File&#x27;, &#x27;C:\\Windows\\Temp\\download_installer.ps1&#x27;, &#x27;-OutputFile&#x27;, &#x27;C:\\Windows\\Temp\\ps_output_download_installer.json&#x27;, &#x27;-TranscriptFile&#x27;, &#x27;C:\\Windows\\Temp\\ps_transcript_download_installer.log&#x27;, &#x27;-Url&#x27;, &#x27;https://download.nvidia.com/gfnpc/GeForceNOW-release.exe&#x27;, &#x27;-DestPath&#x27;, &#x27;C:\\scan_input\\installer.exe&#x27;]</span></td></tr>
+<tr><td class="app">CapCut</td><td><span class="tag warn">Download failed</span></td><td class="muted">—</td><td>vm-1</td><td class="num">1m10s</td><td class="details"><span class="muted">download: The remote server returned an error: (500) Internal Server Error.</span></td></tr>
+<tr><td class="app">PotPlayer</td><td><span class="tag warn">Download failed</span></td><td class="muted">—</td><td>vm-1</td><td class="num">1m10s</td><td class="details"><span class="muted">download: The remote server returned an error: (404) Not Found.</span></td></tr>
+<tr><td class="app">Telegram</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization)</td><td>vm-1</td><td class="num">4m39s</td><td class="details"></td></tr>
+<tr><td class="app">Webex</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=&quot;Cisco Systems, Inc.&quot;, O=&quot;Cisco Systems, Inc.&quot;, L=San Jose, S=California, C=US)</td><td>vm-1</td><td class="num">1m33s</td><td class="details"></td></tr>
+<tr><td class="app">VLC</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=VideoLAN, O=VideoLAN, L=Paris, C=FR)</td><td>vm-1</td><td class="num">3m39s</td><td class="details"></td></tr>
+<tr><td class="app">Steam</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Valve Corp., O=Valve Corp., L=Bellevue, S=Washington, C=US)</td><td>vm-1</td><td class="num">1m34s</td><td class="details"></td></tr>
+<tr><td class="app">Battlenet</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=&quot;Blizzard Entertainment, Inc.&quot;, O=&quot;Blizzard Entertainment, Inc.&quot;, L=Irvine, S=California, C=US, SERIALNUMBER=3876899, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">1m39s</td><td class="details"></td></tr>
+<tr><td class="app">Lightshot</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Kilonova LLC, O=Kilonova LLC, L=Seattle, S=Washington, C=US)</td><td>vm-1</td><td class="num">1m42s</td><td class="details"></td></tr>
+<tr><td class="app">Roblox</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Roblox Corporation, O=Roblox Corporation, L=San Mateo, S=California, C=US, SERIALNUMBER=3780902, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">2m12s</td><td class="details"></td></tr>
+<tr><td class="app">AnyDesk</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=AnyDesk Software GmbH, O=AnyDesk Software GmbH, L=Stuttgart, S=Baden-Württemberg, C=DE)</td><td>vm-1</td><td class="num">2m04s</td><td class="details"></td></tr>
+<tr><td class="app">BlueStacks</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=&quot;Now.gg, INC&quot;, O=&quot;Now.gg, INC&quot;, L=Campbell, S=California, C=US, SERIALNUMBER=4559077, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">1m30s</td><td class="details"></td></tr>
+<tr><td class="app">TeamViewer</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=TeamViewer Germany GmbH, O=TeamViewer Germany GmbH, L=Göppingen, C=DE)</td><td>vm-1</td><td class="num">5m54s</td><td class="details"></td></tr>
+<tr><td class="app">Google Chrome</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">4m29s</td><td class="details"></td></tr>
+<tr><td class="app">Microsoft Teams</td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US)</td><td>vm-1</td><td class="num">1m30s</td><td class="details"></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
