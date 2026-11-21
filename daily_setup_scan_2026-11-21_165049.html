@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>daily_setup_scan report</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #6b7280; --border: #e5e7eb;
+    --head: #f9fafb; --clean: #15803d; --warn: #b45309; --threat: #b91c1c;
+    --error: #b91c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --fg: #e5e7eb; --muted: #9ca3af; --border: #272b33;
+      --head: #161920; --clean: #4ade80; --warn: #fbbf24; --threat: #f87171;
+      --error: #f87171;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .meta { color: var(--muted); margin-bottom: 16px; }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .pill { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600;
+          border: 1px solid var(--border); }
+  .pill.clean { color: var(--clean); } .pill.warn { color: var(--warn); }
+  .pill.threat, .pill.error { color: var(--threat); }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border);
+           vertical-align: top; }
+  th { background: var(--head); font-size: 12px; text-transform: uppercase;
+        letter-spacing: .04em; color: var(--muted); }
+  td.app { font-weight: 600; }
+  td.app a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.details { color: var(--fg); font-size: 13px; word-break: break-word; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 12px;
+         font-weight: 600; border: 1px solid currentColor; }
+  .tag.clean { color: var(--clean); } .tag.warn { color: var(--warn); }
+  .tag.threat, .tag.error { color: var(--threat); }
+  .ok { color: var(--clean); } .warn-text { color: var(--warn); font-weight: 600; }
+  .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+  <h1>daily_setup_scan</h1>
+  <div class="meta">13 apps &middot; 2026-11-21 16:50 UTC</div>
+  <div class="pills"><span class="pill clean">13 Clean</span></div>
+  <table>
+    <thead>
+      <tr><th>App</th><th>Status</th><th>Signature</th><th>VM</th><th>Duration</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+<tr><td class="app"><a href="https://telegram.org/dl/desktop/win" title="https://telegram.org/dl/desktop/win" target="_blank" rel="noopener noreferrer">Telegram</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (E=info@telegram.org, CN=Telegram FZ-LLC, O=Telegram FZ-LLC, L=Dubai, S=Dubai, C=AE, OID.1.3.6.1.4.1.311.60.2.1.2=Dubai, OID.1.3.6.1.4.1.311.60.2.1.3=AE, SERIALNUMBER=94349, OID.2.5.4.15=Private Organization)</td><td>vm-1</td><td class="num">1m44s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/installer/capcut_capcutpc_0_1.2.36_installer.exe" title="https://sf16-web-tos-buz.capcutstatic.com/obj/capcut-web-buz-sg/installer/capcut_capcutpc_0_1.2.36_installer.exe" target="_blank" rel="noopener noreferrer">CapCut</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Bytedance Pte. Ltd., O=Bytedance Pte. Ltd., L=Singapore, C=SG, SERIALNUMBER=201923456H, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=SG)</td><td>vm-1</td><td class="num">1m26s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://binaries.webex.com/WebexTeamsDesktop-Windows-Web-Installer/Webex.exe" title="https://binaries.webex.com/WebexTeamsDesktop-Windows-Web-Installer/Webex.exe" target="_blank" rel="noopener noreferrer">Webex</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=&quot;Cisco Systems, Inc.&quot;, O=&quot;Cisco Systems, Inc.&quot;, L=San Jose, S=California, C=US)</td><td>vm-1</td><td class="num">1m26s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://eu.battle.net/download/getInstaller?os=win&amp;installer=Battle.net-Setup.exe" title="https://eu.battle.net/download/getInstaller?os=win&amp;installer=Battle.net-Setup.exe" target="_blank" rel="noopener noreferrer">Battlenet</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=&quot;Blizzard Entertainment, Inc.&quot;, O=&quot;Blizzard Entertainment, Inc.&quot;, L=Irvine, S=California, C=US, SERIALNUMBER=3876899, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">1m27s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://app.prntscr.com/build/setup-lightshot.exe" title="https://app.prntscr.com/build/setup-lightshot.exe" target="_blank" rel="noopener noreferrer">Lightshot</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Kilonova LLC, O=Kilonova LLC, L=Seattle, S=Washington, C=US)</td><td>vm-1</td><td class="num">1m35s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://www.roblox.com/download/client?os=win" title="https://www.roblox.com/download/client?os=win" target="_blank" rel="noopener noreferrer">Roblox</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Roblox Corporation, O=Roblox Corporation, L=San Mateo, S=California, C=US, SERIALNUMBER=3780902, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">1m37s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://download.anydesk.com/AnyDesk.exe" title="https://download.anydesk.com/AnyDesk.exe" target="_blank" rel="noopener noreferrer">AnyDesk</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=AnyDesk Software GmbH, O=AnyDesk Software GmbH, L=Stuttgart, S=Baden-Württemberg, C=DE)</td><td>vm-1</td><td class="num">1m34s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://cloud.bluestacks.com/api/getdownloadnow" title="https://cloud.bluestacks.com/api/getdownloadnow" target="_blank" rel="noopener noreferrer">BlueStacks</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=&quot;Now.gg, INC&quot;, O=&quot;Now.gg, INC&quot;, L=Campbell, S=California, C=US, SERIALNUMBER=4559077, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">1m34s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://download.teamviewer.com/download/TeamViewer_Setup.exe" title="https://download.teamviewer.com/download/TeamViewer_Setup.exe" target="_blank" rel="noopener noreferrer">TeamViewer</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=TeamViewer Germany GmbH, O=TeamViewer Germany GmbH, L=Göppingen, C=DE)</td><td>vm-1</td><td class="num">1m27s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://download.nvidia.com/gfnpc/GeForceNOW-release.exe" title="https://download.nvidia.com/gfnpc/GeForceNOW-release.exe" target="_blank" rel="noopener noreferrer">Geforce NOW</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=NVIDIA Corporation, OU=2008B9F, O=NVIDIA Corporation, L=Santa Clara, S=California, C=US)</td><td>vm-1</td><td class="num">1m38s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://dl.google.com/chrome/install/latest/chrome_installer.exe" title="https://dl.google.com/chrome/install/latest/chrome_installer.exe" target="_blank" rel="noopener noreferrer">Google Chrome</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">1m26s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://statics.teams.cdn.office.net/production-windows-x86/lkg/MSTeamsSetup.exe" title="https://statics.teams.cdn.office.net/production-windows-x86/lkg/MSTeamsSetup.exe" target="_blank" rel="noopener noreferrer">Microsoft Teams</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US)</td><td>vm-1</td><td class="num">1m28s</td><td class="details"></td></tr>
+<tr><td class="app"><a href="https://gemini.google/download/windows/" title="https://gemini.google/download/windows/" target="_blank" rel="noopener noreferrer">Gemini</a></td><td><span class="tag clean">Clean</span></td><td class="ok">valid (CN=Google LLC, O=Google LLC, L=Mountain View, S=California, C=US, SERIALNUMBER=3582691, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US)</td><td>vm-1</td><td class="num">1m28s</td><td class="details"></td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
