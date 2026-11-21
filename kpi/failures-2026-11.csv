@@ -40,3 +40,5 @@ date,window,attempt,startedAt,runId,suite,version,dsrVersion,key,text
 2026-11-18,2026-11-18-morning,1,2026-11-18T03:21:43.0930825Z,20261118-042050-ui-main-apps-2050ja-slot5,ui-main-apps,2050ja,,6b385f9f50,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
 2026-11-18,2026-11-18-morning,1,2026-11-18T03:26:29.1124758Z,20261118-042535-ui-main-games-2050ja-slot5,ui-main-games,2050ja,,0d71e3223b,Neither search field nor 'Explore The Store' button found in PCA Start Menu.
 2026-11-18,2026-11-18-morning,1,2026-11-18T03:47:34.0766088Z,20261118-044643-after-install-2050ja-slot5,after-install,2050ja,,ec78da22d9,Neither element 'apps_slider' nor 'Explore The Store' button found in Start Menu.
+2026-11-21,2026-11-21-morning,1,2026-11-21T04:34:21.7773362Z,20261121-053330-random-apps-2050j-slot4,random-apps,2050j,,015dc95f3a,Install button not found (or page still loading) for Outlook for Windows
+2026-11-21,2026-11-21-morning,1,2026-11-21T04:43:02.1619944Z,20261121-054211-ms-store-app-2050ja-slot5,ms-store-app,2050ja,,967ccb42e5,Facebook: no Install button found on the app page
