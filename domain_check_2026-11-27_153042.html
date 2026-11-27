@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>domain_check report</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #6b7280; --border: #e5e7eb;
+    --head: #f9fafb; --clean: #15803d; --warn: #b45309; --threat: #b91c1c;
+    --error: #b91c1c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --fg: #e5e7eb; --muted: #9ca3af; --border: #272b33;
+      --head: #161920; --clean: #4ade80; --warn: #fbbf24; --threat: #f87171;
+      --error: #f87171;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .meta { color: var(--muted); margin-bottom: 16px; }
+  .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+  .pill { padding: 4px 10px; border-radius: 999px; font-size: 13px; font-weight: 600;
+          border: 1px solid var(--border); }
+  .pill.clean { color: var(--clean); } .pill.warn { color: var(--warn); }
+  .pill.threat, .pill.error { color: var(--threat); }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border);
+           vertical-align: top; }
+  th { background: var(--head); font-size: 12px; text-transform: uppercase;
+        letter-spacing: .04em; color: var(--muted); }
+  td.app { font-weight: 600; }
+  td.app a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.details { color: var(--fg); font-size: 13px; word-break: break-word; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 12px;
+         font-weight: 600; border: 1px solid currentColor; }
+  .tag.clean { color: var(--clean); } .tag.warn { color: var(--warn); }
+  .tag.threat, .tag.error { color: var(--threat); }
+  .ok { color: var(--clean); } .warn-text { color: var(--warn); font-weight: 600; }
+  .muted { color: var(--muted); }
+</style>
+</head>
+<body>
+  <h1>domain_check</h1>
+  <div class="meta">21 checks &middot; 2026-11-27 15:30 UTC</div>
+  <div class="pills"><span class="pill error">12 VM error</span><span class="pill error">1 Domain down</span><span class="pill error">3 Unexpected page</span><span class="pill clean">5 OK</span></div>
+  <table>
+    <thead>
+      <tr><th>Target</th><th>Check</th><th>Status</th><th>Duration</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+<tr><td class="app">pcappstore.com / chrome (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">pcappstore.com / edge (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">pcapp.store / chrome (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">pcapp.store / edge (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">preview.pcappstore.com / chrome (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">preview.pcappstore.com / edge (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">veryfast.io / chrome (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">veryfast.io / edge (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">themuze.ai / chrome (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">themuze.ai / edge (2050ja)</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">cdn.pcappstore.com / chrome</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">cdn.pcappstore.com / edge</td><td>browser</td><td><span class="tag error">VM error</span></td><td class="num">1s</td><td class="details">VM not ready: vmrun revertToSnapshot failed for vm-1 (exit 4294967295): Error: The snapshot does not exist</td></tr>
+<tr><td class="app">preview.pcappstore.com</td><td>domain</td><td><span class="tag error">Domain down</span></td><td class="num">1m13s</td><td class="details">ConnectTimeout: HTTPSConnectionPool(host=&#x27;preview.pcappstore.com&#x27;, port=443): Max retries exceeded with url: /?as=test_qa&amp;pr=pcapp_2050ja (Caused by ConnectTimeoutError(&lt;HTTPSConnection(host=&#x27;preview.pcappstore.com&#x27;, port=443) at 0x1741c724550&gt;, &#x27;Connection to preview.pcappstore.com timed out. (connect timeout=30)&#x27;))</td></tr>
+<tr><td class="app">pcappstore.com</td><td>domain</td><td><span class="tag error">Unexpected page</span></td><td class="num">0s</td><td class="details">HTTP 200 at https://pcappstore.com, but the page has no &#x27;downloadAfter&#x27;</td></tr>
+<tr><td class="app">pcapp.store</td><td>domain</td><td><span class="tag error">Unexpected page</span></td><td class="num">1s</td><td class="details">HTTP 200 at https://pcappstore.com, but the page has no &#x27;downloadAfter&#x27;</td></tr>
+<tr><td class="app">veryfast.io</td><td>domain</td><td><span class="tag error">Unexpected page</span></td><td class="num">0s</td><td class="details">HTTP 200 at https://veryfast.io/, but the page has no &#x27;downloadAfter&#x27;</td></tr>
+<tr><td class="app">themuze.ai</td><td>domain</td><td><span class="tag clean">OK</span></td><td class="num">0s</td><td class="details">HTTP 200</td></tr>
+<tr><td class="app">cdn.pcappstore.com</td><td>domain</td><td><span class="tag clean">OK</span></td><td class="num">0s</td><td class="details">HTTP 200, download button present</td></tr>
+<tr><td class="app">repcdn.pcapp.store (2050ja)</td><td>cdn</td><td><span class="tag clean">OK</span></td><td class="num">0s</td><td class="details">HTTP 200, 5,041,040 bytes</td></tr>
+<tr><td class="app">repcdn.veryfast.io (2050ja)</td><td>cdn</td><td><span class="tag clean">OK</span></td><td class="num">0s</td><td class="details">HTTP 200, 5,041,040 bytes</td></tr>
+<tr><td class="app">cdn.themuze.ai (2050ja)</td><td>cdn</td><td><span class="tag clean">OK</span></td><td class="num">0s</td><td class="details">HTTP 200, 5,041,040 bytes</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
